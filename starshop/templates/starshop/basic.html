@@ -1,0 +1,49 @@
+<!--
+  Student Name: Sones
+  File Name: .html
+  Date:9/22/2023
+--> 
+{% load static %}
+<link rel="stylesheet" href="{% static 'stylin.css' %}" >
+<!DOCTYPE html>
+
+<html lang="en"> 
+ 
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% block title %}<title>Basic</title> {%endblock%}
+</head>
+
+<body>
+{% block content%}
+
+
+  {% for star in star_list %}
+    <li>
+      {{ star.name|title }}
+    </li>
+
+  {% empty %}
+  <h2> There are currently no Stars available. <h2>
+  {% endfor %}
+  
+
+
+<!-- Use the main area to add the main content to the webpage -->
+  <main>
+
+  </main>
+{% endblock %}
+  <footer>
+    <p>&copy; Copyright 2023. All Rights Reserved.</p>
+
+    <p>Mail us: <a href = "mailto: hippie@humankind.org">starshop@cosmos.dev</a> </p>
+
+  </footer>
+
+</body>
+
+</html>

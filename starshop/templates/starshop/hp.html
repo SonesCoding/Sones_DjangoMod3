@@ -1,0 +1,15 @@
+{% extends 'starshop/basic.html'%}
+
+{%load static%}
+{% block content%}
+<header>
+    <h2>A Star Shop</h2>
+    <h3>Arranged by the Cosmos</h3>
+  </header>
+
+  <form action="bye/" method="post">
+    {% csrf_token %}
+    {{ form.as_ul }}
+    <input type="submit" value="Done?">
+  </form>        
+{%endblock%}

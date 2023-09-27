@@ -1,0 +1,21 @@
+{% extends 'starshop/basic.html'%}
+
+{%load static%}
+{% block content%}
+<header>
+    <h2>You bought {{star.name}}</h2>
+    <h3>It was {{star.color}}</h3>
+  </header>
+
+
+
+{% comment %}
+
+"random quote with the authors name "
+
+randoQ = random.choice(quote_list) ???
+<h2>{{self}}</h3>  #like the self of the randomly chosen quote
+
+{% endcomment %}
+            <p>Thank you for your purchase!</p>
+{%endblock%}

@@ -1,0 +1,19 @@
+A lot of this is a mix of my last project and some of the solutions Mr. Otwane had
+ assisted me with since I was jumping the gun. 
+
+
+I am not perfect so I use these links almost every time I django
+https://code.visualstudio.com/docs/python/tutorial-django#_use-a-template-to-render-a-page
+https://www.geeksforgeeks.org/how-to-create-superuser-in-django/
+and my mod1 github cause of the urls and html, base settings
+
+
+It took very little to satisfy this modules requirements. There is minimal notes 
+on security littered through the source code.
+NOTE: there is a lot of unfinished form work. but :8000/hp works and the stylin is 
+extended from the basic.html which is the template. I had an issue so the update on it will be 
+
+HERE: 
+
+It was dumb path stuff. the styling works so the template works. I wanted the stars that exist to 
+be objects but I will fix that another day.
